@@ -36,3 +36,10 @@ rl.question("Enter your choice (1-3): ", choice =>{
                 console.log("The factorial of " + num + " is " + fact);
             }
         })
+          } else if (choice === "3"){
+        console.log("Exiting Application");
+    } else {
+        console.log("Invalid Choice. Please Try Again");
+    }
+
+})
