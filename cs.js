@@ -9,7 +9,7 @@ function legalAge(age){
 
 legalAge(69);
 
-function computerGrade(grade){
+function computerGrade(grade)
 
    if(grade>= 94.5){
     console.log("1");
