@@ -9,7 +9,7 @@ function legalAge(age){
 
 legalAge(69);
 
-function computerGrade(grade)
+function computerGrade(grade){
 
    if(grade>= 94.5){
     console.log("1");
@@ -31,4 +31,37 @@ function computerGrade(grade)
    }
 }
 
-computerGrade(87);
+//computerGrade(87);
+
+function login(username,password){
+
+    if(username === "cliffy"){
+
+        if(password === 1234){
+            console.log("Welcome User");
+        } else {
+            console.log("Invalid Login Credentials");
+        }
+    }else {
+        console.log("Invalid User");
+    }
+}
+
+login("cliffy" ,1234)
+
+function ticketPrice(age){
+    if (age < 18){
+        if(age < 5 ){
+            console.log("Ticket: Free");
+    }else {
+        console.log("Ticket: Child Price");
+    }
+}else {
+    if (age >=60){
+        console.log("Ticket: Senior Discount");
+    }else {
+        console.log("Ticket: Adult Price");
+     }
+   }
+}
+ticketPrice(70);
